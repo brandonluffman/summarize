@@ -17,7 +17,8 @@ import numpy as np
 app = FastAPI()
 
 nltk.download('punkt')
-
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 app.add_middleware(
     CORSMiddleware,
