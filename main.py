@@ -9,8 +9,6 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.metrics.pairwise import cosine_similarity
 import string
 import pickle
-import sys
-import os
 from summaries import summary
 import numpy as np
 
