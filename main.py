@@ -42,7 +42,7 @@ def calculate_cosine_similarity(tfidf_matrix, query_vector):
     similarity_scores = cosine_similarity(tfidf_matrix, query_vector)
     return similarity_scores.flatten()
 
-@app.get("/api/main")
+@app.get("/")
 async def get_root():
     return 'Hello World'
 
