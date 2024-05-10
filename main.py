@@ -14,6 +14,9 @@ import numpy as np
 
 app = FastAPI()
 
+nltk.download('punkt')
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
