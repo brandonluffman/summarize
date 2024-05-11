@@ -91,9 +91,3 @@ async def create_item(item: Query):
             response.append({"Index": int(idx) + 969, "Similarity Score": float(similarity_scores[idx])})
         
     return response
-    # response = []
-
-    # for i, idx in enumerate(top_indices):
-    #     response.append({"Index": int(idx) + 969, "Similarity Score": float(similarity_scores[idx])})
-        
-    # return response
